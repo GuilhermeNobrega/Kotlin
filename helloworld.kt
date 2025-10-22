@@ -7,3 +7,14 @@ fun main(args: Array<String>) {
     println("Ola, jogador $valor")
     //println(calculo(4,2))
 }
+
+
+var name: String = "John" // String
+val birthyear: Int = 1975 // Int
+
+println(name)
+println(birthyear)
+
+var name: String
+name = "John"
+println(name)
