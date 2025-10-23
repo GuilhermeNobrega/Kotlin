@@ -14,6 +14,14 @@ fun main(args: Array<String>) {
   }
 }
 
+fun main(args: Array<String>) {
+  val frutas = arrayOf("maca", "banana", "kiwi")
+  for (i in frutas.indices) {
+    println("indice $i eh ${frutas[i]}")
+    println(i)
+}
+}
+
 
 fun main(args: Array<String>) {
   for(x in 0..10){
@@ -23,4 +31,13 @@ fun main(args: Array<String>) {
   }
   println(x)
   }
+}
+
+fun main(args: Array<String>) {
+  val items = listOf("maca", "banana", "kiwi")
+  var index = 0
+  while (index < items.size) {
+   println("o item no indice $index eh ${items[index]}")
+   index++
+   }
 }
