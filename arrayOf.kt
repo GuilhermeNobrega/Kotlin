@@ -21,6 +21,15 @@ fun main(args: Array<String>) {
     println(i)
 }
 }
+//ou..
+
+fun main(args: Array<String>) {
+  val frutas = arrayOf("maca", "banana", "kiwi")
+  for (i in frutas) {
+    //println("indice $i eh ${frutas[i]}")
+    println("$i")
+}
+}
 
 
 fun main(args: Array<String>) {
