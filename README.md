@@ -79,7 +79,7 @@ fun main() {
 
 # 🚗 Classes com Atributos — Java vs Kotlin
 
-Exemplo simples de **duas classes** com atributos, no estilo de questão de concurso.
+Exemplo simples de **duas classes** com atributos
 
 ---
 
